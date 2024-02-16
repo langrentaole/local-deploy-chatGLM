@@ -13,8 +13,9 @@
 配置好路径之后，在终端或者idea里面运行api.py程序，静候其加载checkpoint。
 直到本地部署完成
 ![image](https://github.com/langrentaole/local-deploy-chatGLM/assets/109889139/740182df-41ac-4bbe-b601-f7d9ad4b471d)
+
 然后运行chatglm.py或者chatglm_langchain.py，你就可以开始和chatglm愉快的对话了
-为了方便演示我开了两个终端。左边是记录
+为了方便演示我开了两个终端。左边是请求记录，右边是你和chatglm的对话。当然这些都能在idea里面运行效果一致。
 ![image](https://github.com/langrentaole/local-deploy-chatGLM/assets/109889139/475790fa-6afa-4ac2-87a4-89f88281355d)
 
 
