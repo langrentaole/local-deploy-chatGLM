@@ -13,7 +13,7 @@ history = []
 while True:
     prompt = input('user:')
     response, history = chat(prompt, history)
-    print(f'chatglm:{response}')
+    print(f'chatGLM:{response}')
 
 
 
