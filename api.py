@@ -50,7 +50,7 @@ async def create_item(request: Request):
 
 
 if __name__ == '__main__':
-    model_path = "D:\\ASUS\\Hugging Face\\models--THUDM--chatglm-6b"
+    model_path = ""  # add your own model_path
     tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
     model = AutoModel.from_pretrained(model_path, trust_remote_code=True).quantize(4).half().cuda()
     model.eval()
